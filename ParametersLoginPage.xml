@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test1" thread-count = "10">
+  <parameter name="email" value="Mohamad"></parameter>
+  
+  <parameter name="pass" value="india"></parameter>
+  
+  <classes>
+  <class name= "com.testing.ParametersLoginPage"></class>
+  
+  
+  
+  </classes>
+  </test> <!-- Test -->
+
+
+  <test name="Test2" thread-count = "10">
+  <parameter name="email" value="idris"></parameter>
+  
+  <parameter name="pass" value="mohamad"></parameter>
+  
+  <classes>
+  <class name= "com.testing.ParametersLoginPage"></class>
+  
+  
+  
+  </classes>
+  </test> <!-- Test -->
+
+
+
+</suite> <!-- Suite -->
